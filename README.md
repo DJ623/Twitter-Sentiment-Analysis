@@ -5,6 +5,11 @@ A mini project for analyzing, classifying, and visualizing the sentiments of twe
 
 This project features a real-time Twitter (now X) sentiment analysis model designed for scalability and large-scale data processing using technologies like Apache Spark for model training, Hadoop Distributed File System (HDFS) for storing the model to ensure it is available to different services at the same time, Kafka for fetching the tweets data, MongoDB to store the processed data, Streamlit to design and deploy the dashboard to view the analysis, and Docker to containerize all the services to ensure loose coupling of the system for scalability, availability, and fault tolerance of the system.
 
+## **Architecture**
+
+![Architecture diagram](https://github.com/DJ623/Twitter-Sentiment-Analysis/blob/main/Architecture%20and%20dashboard%20of%20the%20model%20/Architecture.png)
+
+
 ## **Prerequisites**
 
 1. **Hadoop installed** (version 3.4.0 on M1 Mac)  
@@ -124,4 +129,11 @@ NOTE : We have already provided the trained model file as model.pkl file in /mod
 4. **Follow steps 5 to 10 in the previous section of Deployment.**  
    **Happy running\!**
 
+
+## **Dashboard**
+![Dashboard 1](https://github.com/DJ623/Twitter-Sentiment-Analysis/blob/main/Architecture%20and%20dashboard%20of%20the%20model%20/dashboard_01.png)
+
+![Dashboard 2](https://github.com/DJ623/Twitter-Sentiment-Analysis/blob/main/Architecture%20and%20dashboard%20of%20the%20model%20/dashboard_02.png)
+
+![Dashboard 3](https://github.com/DJ623/Twitter-Sentiment-Analysis/blob/main/Architecture%20and%20dashboard%20of%20the%20model%20/dashboard_03.png)
 
